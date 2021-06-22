@@ -1,0 +1,50 @@
+<script>
+	import Icon from 'fa-svelte';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
+	import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
+</script>
+
+<section>
+	<nav class="navbar">
+		<li>
+			<a href="/">
+				<Icon icon={faHome} /> Home
+			</a>
+		</li>
+		<li>
+			<a href="/github">
+				<Icon icon={faGithub} /> Github
+			</a>
+		</li>
+	</nav>
+</section>
+
+<style>
+	.navbar {
+		margin: 0;
+		font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+		display: block;
+		overflow: hidden;
+		border-bottom: var(--bordersz) solid var(--bordercol);
+		background-color: var(--navbar-col);
+	}
+
+	.navbar li {
+		display: block;
+		padding: 14px 16px;
+
+		overflow: hidden;
+		float: left;
+	}
+
+	.navbar li a {
+		color: white;
+		text-decoration: none;
+		text-shadow: 2px 1px gray;
+	}
+
+	.navbar li:hover {
+		background-color: #222;
+	}
+</style>
