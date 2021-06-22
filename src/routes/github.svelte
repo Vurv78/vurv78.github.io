@@ -19,3 +19,7 @@
 	</center>
 </div>
 <Footer/>
+
+<style>
+	@import "$lib/Main.css";
+</style>

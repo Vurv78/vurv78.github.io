@@ -24,26 +24,7 @@
 <Footer/>
 
 <style>
-	/* Svelte sets padding to 8 by default */
-	:global(body) {
-		padding: 0;
-		margin: 0;
-		background-color: var(--primary-color);
-
-		/* Global Vars */
-
-		--bordersz: 1px;
-
-		--primary-color: #f2f2f2;
-		--secondary-color: #333;
-		--third-color: #444;
-		--tertiary-color: #edf0f8;
-		--accent-color: #444;
-
-		--text-color: #444444;
-		--text-dark: #999;
-	}
-
+	@import "$lib/Main.css";
 	body.center-paragraph {
 		text-align: center;
 		font-family: 'Times New Roman', Times, serif;
