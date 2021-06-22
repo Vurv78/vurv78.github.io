@@ -1,6 +1,6 @@
 <script>
 	import Icon from 'fa-svelte';
-	import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
+	import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope.js';
 	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub.js';
 </script>
 <div id="footer">

@@ -1,7 +1,7 @@
 <script>
 	import Icon from 'fa-svelte';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub';
-	import { faHome } from '@fortawesome/free-solid-svg-icons/faHome';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub.js';
+	import { faHome } from '@fortawesome/free-solid-svg-icons/faHome.js';
 </script>
 
 <section>
