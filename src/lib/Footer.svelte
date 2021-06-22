@@ -16,12 +16,12 @@
 
 <style>
 	footer {
-		border-top: var(--bordersz) solid var(--bordercol);
-		background-color: var(--navbar-col);
+		border-top: var(--bordersz) solid var(--accent-color);
+		background-color: var(--secondary-color);
 
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		text-align: center;
-		color: var(--footer-text-col);
+		color: var(--text-dark);
 		text-decoration: none;
 
 		width: 100%;
@@ -36,6 +36,6 @@
 
 	footer a {
 		text-decoration: none;
-		color: var(--footer-text-col);
+		color: var(--text-dark);
 	}
 </style>

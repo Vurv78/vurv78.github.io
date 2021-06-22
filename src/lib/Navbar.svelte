@@ -26,8 +26,8 @@
 
 		display: block;
 		overflow: hidden;
-		border-bottom: var(--bordersz) solid var(--bordercol);
-		background-color: var(--navbar-col);
+		border-bottom: var(--bordersz) solid var(--accent-color);
+		background-color: var(--secondary-color);
 	}
 
 	.navbar li {

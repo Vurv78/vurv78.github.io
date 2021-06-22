@@ -28,17 +28,20 @@
 	:global(body) {
 		padding: 0;
 		margin: 0;
-		background-color: var(--background);
+		background-color: var(--primary-color);
 
 		/* Global Vars */
-		--navbar-col: #333;
 
 		--bordersz: 1px;
-		--bordercol: #444;
 
-		--footer-text-col: #999;
+		--primary-color: #f2f2f2;
+		--secondary-color: #333;
+		--third-color: #444;
+		--tertiary-color: #edf0f8;
+		--accent-color: #444;
 
-		--background: #f2f2f2;
+		--text-color: #444444;
+		--text-dark: #999;
 	}
 
 	body.center-paragraph {
