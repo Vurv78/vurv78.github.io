@@ -1,6 +1,4 @@
-name: Build & Deploy Documentation
-
-# On commits, build & deploy docs
+name: Build & Deploy to Pages
 
 on:
   # Only run on commits from master branch
