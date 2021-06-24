@@ -1,7 +1,7 @@
 <script>
 	import Icon from 'fa-svelte';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub.js';
-	import { faHome } from '@fortawesome/free-solid-svg-icons/faHome.js';
+	import { faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
+	import { faHome } from '@fortawesome/free-solid-svg-icons';
 </script>
 
 <section>
@@ -14,6 +14,11 @@
 		<li>
 			<a href="/github">
 				<Icon icon={faGithub} /> Github
+			</a>
+		</li>
+		<li>
+			<a href="/webhook">
+				<Icon icon={faDiscord} /> Webhook Sender
 			</a>
 		</li>
 	</nav>
@@ -39,9 +44,9 @@
 	}
 
 	.navbar li a {
-		color: white;
+		color: var(--text-lighter);
 		text-decoration: none;
-		text-shadow: 2px 1px gray;
+		text-shadow: 2px 1px var(--text-color);
 	}
 
 	.navbar li:hover {

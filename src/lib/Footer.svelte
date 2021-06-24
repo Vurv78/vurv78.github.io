@@ -1,8 +1,9 @@
 <script>
 	import Icon from 'fa-svelte';
-	import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope.js';
-	import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub.js';
+	import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
 </script>
+
 <div id="footer">
 	<footer>
 		<div style="padding: 0.5em;">
@@ -21,7 +22,7 @@
 
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 		text-align: center;
-		color: var(--text-dark);
+		color: var(--text-light);
 		text-decoration: none;
 
 		width: 100%;
@@ -36,6 +37,10 @@
 
 	footer a {
 		text-decoration: none;
-		color: var(--text-dark);
+		color: var(--text-light);
+	}
+
+	footer a:hover {
+		color: #fff;
 	}
 </style>

@@ -10,6 +10,7 @@
 		overflow: hidden;
 	}
 	.toptitle {
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
 		text-align: center;
 	}
 </style>

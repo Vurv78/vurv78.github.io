@@ -12,5 +12,6 @@ body {
 	--accent-color: #444;
 
 	--text-color: #444444;
-	--text-dark: #999;
+	--text-light: #999;
+	--text-lighter: #fff;
 }
