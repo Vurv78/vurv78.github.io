@@ -14,7 +14,7 @@
 <div id="body">
 	<center>
 		<GithubCard repo="WebAudio" owner="vurv78"/>
-		<GithubCard repo="VExtensions" owner="vurv78"/>
+		<GithubCard repo="ExpressionScript" owner="vurv78"/>
 		<GithubCard repo="Autorun-rs" owner="vurv78"/>
 	</center>
 </div>
